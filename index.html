@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/c219a75041.js" crossorigin="anonymous"></script>
+  <title>Portfólio Ana Paula</title>
+</head>
+
+<body>
+  <main>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="./img/Logotipo.png" alt="Logotipo">
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+          <a href="#home">Home</a>
+          <a href="#projects">Projetos</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou Ana Paula</h2>
+        <span class="home-position">Desenvolvedora Full Stack</span>
+        <span class="home-resume">
+          Estudante de Análise e Desenvolvimento De Sistemas.
+          Tenho experiência em análise e desenvolvimento de aplicações web, utilizando as linguagens de programação PHP
+          e JavaScript, frameworks Laravel e Zend, biblioteca jQuery, padrão de arquitetura de software MVC e banco de
+          dados MySQL.
+          Manutenção em site de e-commerce, reparos nos códigos CSS, HTML e JavaScript, ajustes, otimização, e
+          organização dos conteúdos e layout.
+        </span>
+        <div class="social">
+          <button>
+            <a href="https://www.linkedin.com/in/ana-paula-gomes-guimaraes/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i> Linkedin</a>
+          </button>
+          <button>
+            <a href="https://github.com/anapaulaguimaraes" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
+          </button>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./img/Foto Ana Paula.jpg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/embreve.png" alt="Foto de um sistema">
+            </div>
+            <div class="project-info">
+              <h2>Sistemas completos</h2>
+              <p>Criação de um carrinho de compras completo em PHP com o framework Laravel. O carrinho de compras pode
+                ser utilizado em e-commerce e sistemas de frente de caixa.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/e-commerce.PNG" alt="Foto e-commerce">
+            </div>
+            <div class="project-info">
+              <h2>Sites E-commerce</h2>
+              <p>Criação e manutenção em sites de e-commerce, reparos nos códigos CSS, HTML e JavaScript, ajustes,
+                otimização, e organização dos conteúdos e layout.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/site.png" alt="Foto de um site">
+            </div>
+            <div class="project-info">
+              <h2>WebSites Modernos</h2>
+              <p>Criação de websites modernos responsivos para qualquer dispositivo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <footer>
+      copyright © 2023 Ana Paula Guimarães. Todos os direitos reservados
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
