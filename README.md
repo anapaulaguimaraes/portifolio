@@ -10,4 +10,4 @@ Criação do meu portfólio pessoal, utilizando:
 * Veja como ficou o projeto: https://anapaulaguimaraes.netlify.app/
 
 
-![Portifolio](https://github.com/anapaulaguimaraes/portifolio/blob/main/img/sistema.PNG?raw=true)
+![Portifolio](https://github.com/anapaulaguimaraes/portifolio/blob/main/img/site.png?raw=true)
